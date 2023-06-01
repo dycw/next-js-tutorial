@@ -1,3 +1,3 @@
-# `template`
+# Next.js tutorial
 
-Template for generic repositories
+https://nextjs.org/learn/foundations/about-nextjs
