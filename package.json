@@ -1,7 +1,7 @@
 {
   "name": "next-js-tutorial",
   "private": true,
-  "version": "0.1.2",
+  "version": "0.1.8",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -17,6 +17,8 @@
     "remark-html": "^15.0.2"
   },
   "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.8",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
     "prettier": "^2.8.8",
