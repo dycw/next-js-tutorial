@@ -5,7 +5,11 @@ import utilStyles from "../styles/utils.module.css";
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Home({ allPostsData }) {
+export default function Home({
+  allPostsData,
+}: {
+  allPostsData: { date: string; title: string; id: string }[];
+}) {
   return (
     <Layout home>
       <Head>
